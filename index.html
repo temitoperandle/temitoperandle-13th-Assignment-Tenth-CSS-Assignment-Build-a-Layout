@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CapacityBay</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li class="first-drop">
+                    <a href="#">Service</a>
+                    <ul>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Fullstack</a></li>
+                        <li class="second-drop">
+                            <a href="#">Linux</a>
+                            <ul>
+                                <li><a href="#">Splunk</a></li>
+                                <li><a href="#">Javascript</a></li>
+                                <li><a href="#">Java</a></li>
+                                <li><a href="#">React</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div class="profile">
+                <img src="image.png" alt="profile picture">
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="left-container">
+            <section id="home" class="section">
+                <div class="post-container">
+                    <div class="post-header">
+                        <strong>What's on your mind?</strong>
+                    </div>
+                    <textarea name="textarea" cols="20" rows="2" placeholder="Write something here"></textarea>
+                    <div class="post-actions">
+                        <button class="post-btn">POST</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="image" class="section">
+                <div class="image-container">
+                    <img src="welcome.jpg" alt="Welcome to July">
+                </div>
+            </section>
+        </div>
+
+        <section id="blog" class="section">
+            <div class="image-container">
+                <img src="more.jpg" alt="more">
+            </div>
+        </section>
+        
+        <section id="about" class="section">
+            <div class="image-container">
+                <img src="add friends.jpg" alt="Suggestion">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
